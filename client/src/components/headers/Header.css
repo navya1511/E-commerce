@@ -1,0 +1,49 @@
+.icon{
+    width: 30px;
+    height: 30px;
+}
+header{
+    min-height: 70px;
+    width:100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(17, 233, 233);
+    background-color: rgb(2, 209, 209);
+}
+header .logo{
+    flex:1;
+    padding-left: 5px;
+}
+header a{
+    text-transform: uppercase;
+    color: white;
+}
+header ul li{
+    display: inline-block;
+    opacity: 0.8;
+    padding: 0 20px;
+}
+header ul li:hover{
+    opacity: 1;
+}
+.menu{
+    display: none;
+}
+.cart-icon{
+    position: relative;
+    margin-right: 20px;
+    
+}
+.cart-icon span{
+    position: absolute;
+    border-radius: 20px;
+    color: white;
+    background: crimson;
+    top:-10px;
+    right: -10px;
+    padding: 5px 7px;
+    font-size: 10px;
+}
